@@ -372,7 +372,7 @@ body.light-theme {
   width: 32px;
   height: 2px;
   background-color: var(--first-color);
-  transform: rotate(90deg) translate(16px, 6px);
+  transform: rotate(90deg) translate(16px, 3px);
 }
 .home__scroll {
   color: var(--first-color);
