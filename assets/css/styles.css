@@ -13,12 +13,16 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 162  ;
-  --sat: 69%;
-  --lig: 44%;
+  /* --first-hue: 194; */
+  /* --first-hue: 143; */
+  /* --first-hue: 214; */
+  /* --first-hue: 530; */
+  --first-hue: 576;
+  --sat:  34%;
+  --lig: 66%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 59%); /* -4% */
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 80%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
@@ -141,6 +145,8 @@ body.light-theme {
 
 .light-theme .nav__menu {
   background-color: hsla(var(--second-hue),32%, 90%, .8);
+  box-shadow: 0 0px 50px 2px #5ecfad71;
+  border: .3px solid #5ecfad71;
 }
 
 .light-theme .section__subtitle {
@@ -362,6 +368,7 @@ body.light-theme {
   display: flex;
   font-size: 1rem;
   transition: .4s;
+  margin-bottom: 0.25rem;
 }
 .home__social-link:hover {
   background-color: var(--first-color);

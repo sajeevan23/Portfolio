@@ -129,13 +129,25 @@ themeButton.addEventListener('click', () => {
 
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '60px',
+    distance: '70px',
     duration: 2500,
-    Delay: 400,
-    // reset: true
+    Delay: 300,
+    reset: true,
 })
 
+sr.reveal(`.nav__menu`, {Delay: 100, origin: 'bottom', distance: '400px'})
 sr.reveal(`.home__data`)
 sr.reveal(`.home__handle`, {Delay: 700})
 sr.reveal(`.home__social, .home__scroll`, {Delay: 900, origin: 'bottom'})
+sr.reveal(`.about__img `, {Delay: 1000, origin: 'bottom'})
+sr.reveal(`.about__container `, {Delay: 1300,})
+sr.reveal(`.skills__content `, {Delay: 1500})
+sr.reveal(`.services__card `, {Delay: 1600})
+sr.reveal(`.work__card`, {Delay: 1800})
+sr.reveal(`.testimonial__container`, {Delay: 2000})
+sr.reveal(`.contact__info`, {Delay: 2100})
+sr.reveal(`.contact__content`, {Delay: 2100})
+sr.reveal(`.footer__container `, {Delay: 2100})
+sr.reveal(`.footer__social-link`, {Delay: 2300, origin: 'bottom'})
+
 
