@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -13,11 +13,11 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  /* --first-hue: 194; */
   /* --first-hue: 143; */
   /* --first-hue: 214; */
   /* --first-hue: 530; */
   --first-hue: 576;
+  /* --first-hue: 194; */
   --sat:  34%;
   --lig: 66%;
   --second-hue: 219;
@@ -31,15 +31,16 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Poppins', sans-serif;
+  /* --body-font: 'Macondo', sans-serif; */
+  --body-font: 'Nunito', sans-serif;
   --biggest-font-size: 1.75rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
-  --tiny-font-size: .625rem;
+  --h1-font-size: 1.9rem;
+  --h2-font-size: 1.45rem;
+  --h3-font-size: 1.5rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 1rem;
+  --smaller-font-size: .95rem;
+  --tiny-font-size: .925rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
@@ -251,6 +252,7 @@ body.light-theme {
   align-items: center;
 }
 .nav__logo {
+  font-family: 'Macondo', sans-serif;
   color: var(--first-color);
   font-size: var(--font-medium);
   transition: .4s;
@@ -325,6 +327,8 @@ body.light-theme {
 } 
 .home__name {
   font-size: var(--biggest-font-size);
+  margin: .3rem 0;
+  font-family: 'Macondo', sans-serif;
 }
 .home__img {
   width: 160px;
