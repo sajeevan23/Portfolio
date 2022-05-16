@@ -237,7 +237,9 @@ body.light-theme {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
-
+.d__none {
+  display: none;
+}
 /*=============== HEADER & NAV===============*/
 .header {
   position: fixed;
@@ -1000,7 +1002,7 @@ body.light-theme {
     margin-bottom: 2.5rem;
   }
   .skills__container {
-    grid-template-columns: repeat(2, 450px);
+    /* grid-template-columns: repeat(2, 450px); */
     column-gap: 3rem;
   }
   .services__container {
