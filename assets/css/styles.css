@@ -967,7 +967,8 @@ body.light-theme {
     height: 400px;
   }
   .home__img {
-    width: 220px;
+    /* width: 220px; */
+    width: 100%;
   }
   .home__social-link {
     padding: 0.4rem;
