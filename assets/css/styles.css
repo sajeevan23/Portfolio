@@ -1045,5 +1045,15 @@ body.light-theme {
     padding: 0.2rem .6rem;
     border-radius: .5rem;
   }
+
 }
 
+@media only screen and (max-width: 991px) {
+  .home__img {
+    width: 100%;
+  }
+
+  .home__handle {
+    height: 285px;
+  }
+}
