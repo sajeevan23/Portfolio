@@ -14,10 +14,10 @@
         Teal: hsl(174, 63%, 62%)
   */
    /* --first-hue: 143; */
-  /* --first-hue: 214; */
+  --first-hue: 214;
   /* --first-hue: 530; */
   /* --first-hue: 576; */
-  --first-hue: 587;
+  /* --first-hue: 587; */
   --sat:  74%;
   --lig: 64%;
   --second-hue: 219;
@@ -259,7 +259,7 @@ body.light-theme {
 .nav__logo {
   font-family: 'Macondo', sans-serif;
   color: var(--first-color);
-  font-size: var(--font-medium);
+  font-size: var(--h2-font-size);
   transition: .4s;
 }
 .nav__logo:hover {
